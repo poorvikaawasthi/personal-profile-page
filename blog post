@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Simple Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+        header, footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        main {
+            display: flex;
+            padding: 20px;
+        }
+        article {
+            flex: 3;
+            background: white;
+            padding: 20px;
+            margin-right: 20px;
+        }
+        aside {
+            flex: 1;
+            background: #ddd;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Blog</h1>
+        <p>Sharing thoughts and ideas</p>
+    </header>
+
+    <nav>
+        <p style="text-align:center;">
+            <a href="#">Home</a> |
+            <a href="#">About</a> |
+            <a href="#">Contact</a>
+        </p>
+    </nav>
+
+    <main>
+        <article>
+            <section>
+                <h2>First Blog Post</h2>
+                <p>This is my first blog post. Semantic HTML helps make content meaningful and accessible.</p>
+            </section>
+
+            <section>
+                <h2>Second Blog Post</h2>
+                <p>Using tags like article, section, and aside improves structure and SEO.</p>
+            </section>
+        </article>
+
+        <aside>
+            <h3>About Me</h3>
+            <p>I am learning HTML and building simple layouts.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Blog</p>
+    </footer>
+
+</body>
+</html>
