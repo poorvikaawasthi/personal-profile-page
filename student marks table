@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marks Table</title>
+</head>
+<body>
+
+<h2>Student Marks Table</h2>
+
+<table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Maths</th>
+        <th>Science</th>
+        <th>English</th>
+        <th>Total</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>Abhay</td>
+        <td>85</td>
+        <td>78</td>
+        <td>88</td>
+        <td>251</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Jiya</td>
+        <td>90</td>
+        <td>82</td>
+        <td>91</td>
+        <td>263</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Sara</td>
+        <td>75</td>
+        <td>80</td>
+        <td>70</td>
+        <td>225</td>
+    </tr>
+</table>
+
+</body>
+</html>
