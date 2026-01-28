@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox Card Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="title">Our Team</h1>
+
+    <div class="card-container">
+        <div class="card">
+            <h2>Jiya Kohli</h2>
+            <p>Physiotherapist</p>
+            <button>View Profile</button>
+        </div>
+
+        <div class="card">
+            <h2>Aditi hundia</h2>
+            <p>Entrepreneur</p>
+            <button>View Profile</button>
+        </div>
+
+        <div class="card">
+            <h2>Shanaya Singhania</h2>
+            <p>Full Stack Developer</p>
+            <button>View Profile</button>
+        </div>
+
+        <div class="card">
+            <h2>Sanya Shrivastav </h2>
+            <p>UI/UX Designer</p>
+            <button>View Profile</button>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    padding: 40px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Flexbox Container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Card Styling */
+.card {
+    background-color: #ffffff;
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.card p {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+/* Button */
+.card button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #667eea;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #5563c1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+}
